@@ -17,7 +17,7 @@
 ## Purpose
 
 > This project serves as a way to practice Django and Chart.js.<br>
-> The final goal is to have a compleat CRM app with customized dashboards and data visualization pages for variety of corporate needs.
+> The final goal is to have a complete CRM app with customized dashboards and data visualization pages for a variety of corporate needs.
 
 ## Requirements
 
@@ -67,8 +67,8 @@
 </p>
 
 ## Credits
->
-> [pythonando - DASHBOARD com DJANGO e CHART.JS](https://www.youtube.com/watch?v=HozwGeEiXIk)
+
+> [pythonando - DASHBOARD com DJANGO e CHART.JS](https://external.ink?to=/www.youtube.com/watch?v=HozwGeEiXIk)
 
 ## Show your support
 
@@ -81,7 +81,7 @@ Give a ⭐️ if this project helped you!
 * [ ] 1. Add expenses table to admin;
 * [ ] 2. Add more data;
 * [ ] 3. Dynamically present values for Total Expenses and Total Income (top-middle value);
-* [ ] 4. Add dynamic data to Monthly Expenses chart (top-right value);
+* [ ] 4. Add dynamic data to the Monthly Expenses chart (top-right value);
 * [ ] 5. Add costumers data;
 * [ ] 6. Add suppliers data;
 * [ ] 7. Add staff management page;
@@ -93,7 +93,7 @@ Give a ⭐️ if this project helped you!
 * [ ] 14. Add user to data;
 * [ ] 15. Add landing page;
 * [ ] 16. Add login/subscribe page;
-* [ ] 17. Add import data from csv file functionality;
+* [ ] 17. Add import data from CSV file functionality;
 * [ ] 18. Publish;
 
 ***

@@ -68,7 +68,7 @@
 
 ## Credits
 
-> [pythonando - DASHBOARD com DJANGO e CHART.JS](https://external.ink?to=/www.youtube.com/watch?v=HozwGeEiXIk)
+> <a href="https://www.youtube.com/watch?v=HozwGeEiXIk" target="_blank" rel="noopener noreferrer">pythonando - DASHBOARD com DJANGO e CHART.JS</a>
 
 ## Show your support
 

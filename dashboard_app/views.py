@@ -21,25 +21,25 @@ def getTotalSales(request):
     return JsonResponse({"total": total})
 
 
-# Get total sales throug the last 12 months
-def getAnualSalesReport(request):
+# Get total sales through the last 12 months
+def getAnnualSalesReport(request):
     if request.method != "GET":
         return JsonResponse({"error": "GET method required."})
 
     totalSales = Vendas.objects.all()
     months = [
-        "jan",
-        "fev",
-        "mar",
-        "abr",
-        "mai",
-        "jun",
-        "jul",
-        "ago",
-        "set",
-        "out",
-        "nov",
-        "dez",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "Mai",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
     ]
     data = []
     labels = []
@@ -85,7 +85,7 @@ def getTop3Products(request):
     productsList.sort(key=lambda productsList: productsList[1], reverse=True)
     productsList = list(zip(*productsList))
 
-    return JsonResponse({"labels": productsList[0][:3], "data": productsList[1][:3]})
+    return JsonResponse({"labels": productsList[1][:3], "data": productsList[0][:3]})
 
 
 # Get the top 3 sellers
